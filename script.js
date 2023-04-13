@@ -1,4 +1,4 @@
 //your JS code here. If required.
 // let a="DOM load success";
-let c= document.querySelector(".bo");
-c.innerText="DOM loaded success";
+let c= document.getElementByTagname("body")
+c.innerText="DOM load success";
